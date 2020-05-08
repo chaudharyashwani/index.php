@@ -3,9 +3,9 @@
 if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
     die('Name parameter missing');
 }
-// If the user requested logout go back to index.php
+// If the user requested logout go back to index.html
 if ( isset($_POST['logout']) ) {
-    header('Location: index.php');
+    header('Location: index.html');
     return;
 }
 // Set up the values for the game...
@@ -45,8 +45,8 @@ $result = check($computer, $human);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ashwani Chaudhary d6467674</title>
-<?php require_once "bootstrap.php"; ?>
+<title>Ashwani Chaudhary d6467674 </title>
+<?php require_once "bootstrap.html"; ?>
 </head>
 <body>
 <div class="container">
