@@ -1,7 +1,7 @@
 <?php // Do not put any HTML above this line
 if ( isset($_POST['cancel'] ) ) {
     // Redirect the browser to game.php
-    header("Location: index.php");
+    header("Location: index.html");
     return;
 }
 $salt = 'XyZzy12*_';
@@ -27,7 +27,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <!DOCTYPE html>
 <html>
 <head>
-<?php require_once "bootstrap.php"; ?>
+<?php require_once "bootstrap.html"; ?>
 <title>Anamitra Musib 32ce3337</title>
 </head>
 <body>
